@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fad7ae;
+  margin: 0px;
+  font-size: 20px;
+}
+
+#historia {
+  border: 5px, double, rgb(87, 87, 87);
+  border-radius: 6px;
+}
+
+.titulo {
+  text-align: center;
+  padding: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(197, 173, 143);
+  padding: 0px;
+  margin: 0px;
+}
+
+.menubutao {
+  padding: 10px;
+  width: 75px;
+  height: 75px;
+}
+.menubutao:hover {
+  color: black;
+}
+.margin {
+  margin: 30px;
+}
+
+.texto {
+  width: 100%;
+  margin: 10px;
+}
+
+.imagem {
+  border-radius: 7px;
+  border: 4px, solid, rgb(0, 0, 0);
+  width: 40rem;
+  margin: 10px;
+}
+
+.texto-imagem {
+  display: flex;
+}
+
+.topics {
+  padding: 20px;
+}
