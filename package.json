@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node --watch ./bin/www"
+    "start": "node --watch ./bin/www",
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
     "@flaticon/flaticon-uicons": "^3.3.1",
