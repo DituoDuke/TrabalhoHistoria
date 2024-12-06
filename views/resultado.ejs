@@ -3,41 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
-
+    <link rel="icon" href="https://cdn.glitch.global/c84f6cdb-9f70-4fe9-b879-68945564ccd9/revolta.png?v=1725500954259"/>
     <link
       rel="stylesheet"
       href="https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css"
     />
-    <title>RESULTADO</title>
+    <link rel="stylesheet" href="/stylesheets/background.css"/>
+    <title>REVOLTA DOS MALÊS - RESULTADO</title>
   </head>
   <body>
-    <div class="menu"></div>
+    <div class="menu"><br> 
+      <a class="ligacoes" href="/" >INÍCIO</a>
+      <a class="ligacoes" href="/contexto">CONTEXTO</a>
+      <a class="ligacoes" href="/religiao">RELIGIÃO</a>
+      <a class="ligacoes" href="/diferenca">DIFERENÇAS</a> 
+      <a class="ligacoes" href="/resultado">RESULTADO</a>
+      <a class="ligacoes" href="/hipoteses">SE DESSE CERTO</a>   
+    </div>
 
     <div class="margin">
-      <h1 class="titulo">RESULTRADO DA REVOLTA</h1>
+      <h1 class="titulo">RESULTADO DA REVOLTA</h1>
 
       <div class="texto-imagem">
         <div class="texto">
+          
+         
+          <p>A revolta eclodiu abruptamente na madrugada do dia 25 de janeiro porque e todo o planejamento ruiu-se logo em seguida.</p>
+          
           <h2>Motivos par o fracasso:</h2>
-          <li>Os malês foram delatados para as autoridades;</li>
-          <li>A superioridade bélica das tropas imperiais.</li>
+          <div  class="topicos">
+            <li>Os malês foram delatados para as autoridades;</li>
+            <li>A superioridade bélica das tropas imperiais.</li>
+          </div>
+          
+          <h2>Consequências e Punições:</h2>
+          <div class="topicos">
+            <li>Morte de 70 dos africanos;</li>
+            <li>Nove mortes nas forças imperiais;</li>
+            <li>Intensificação da repressão religiosa;</li>
+            <li>Proibição de cultos não católicos;</li>
+            <li>Restrições à circulação noturna;</li>
+            <li>Líderes foram condenados à morte;</li>
+            <li>Foram fuzilados, açoitados ou condenados a trabalhos forçados.</li> 
+          </div>
+    
 
-          <h2>Consequências:</h2>
-          <li>Morte de 70 dos africanos;</li>
-          <li>Líderes foram condenados à morte;</li>
-          <li>
-            Foram fuzilados, açoitados ou condenados a trabalhos forçados;
-          </li>
-          <li>Nove mortes nas forças.</li>
-
-          A revolta eclodiu abruptamente na madrugada do dia 25 de janeiro,
-          porque a trama havia sido denunciada e todo o planejamento ruiu-se.
+          
         </div>
         <img class="imagem" src="/images/8.jpg" alt="AAAA" />
       </div>
 
-      <div></div>
+
     </div>
-    <script type="text/javascript" src="/javascripts/scripts.js"></script>
+    <script>
+      let proximo = () => {
+        window.location = "/hipoteses"
+      }
+        let anterior = () => {
+          window.location = "diferenca"
+        }
+      document.documentElement.addEventListener("keydown", (e) => {
+        if(e.key == "ArrowRight")
+          {
+            proximo()
+          }
+        else if(e.key == "ArrowLeft")
+          {
+            anterior()
+          }
+        })
+    </script>
   </body>
 </html>

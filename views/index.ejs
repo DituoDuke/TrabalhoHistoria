@@ -3,19 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
-
+    <link rel="icon" href="https://cdn.glitch.global/c84f6cdb-9f70-4fe9-b879-68945564ccd9/revolta.png?v=1725500954259"/>
     <link
       rel="stylesheet"
       href="https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css"
     />
-    <title>Revoltas</title>
+   <title>Revoltas</title>
   </head>
   <body>
-    <div class="menu">
-      <div></div>
+    <div class="menu" id="menu"></div>
+    
+    <div class="titulo">
+    <h1> Revoltas Historicas no Brasil</h1>
     </div>
+    
     <p></p>
-    <a href="/titulos"></a>
+    
+    <div class="procurar-revoltas">
+      <label for="procurar">Procurar Revoltas</label>
+      <input type="search"  class="procurar" id="procurar" data-procurar>
+    </div>
+
+    <div class="revoltas-caixa" data-revoltas-caixa-caixa></div>
+    <template data-revolta-template>
+      <div class="caixa" caixa-unica>
+        <div class="nome" data-nome>
+        </div>
+      </div>
+    </template>
+    
+    
+    <script>
+      const a = document.querySelector("#menu")
+      a.addEventListener('click', () => {window.open("../contexto", "_blank")})
+      
+    
+      
+    </script>
     <script type="text/javascript" src="/javascripts/scripts.js"></script>
   </body>
 </html>

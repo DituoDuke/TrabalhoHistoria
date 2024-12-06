@@ -3,15 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
-
+    <link rel="icon" href="https://cdn.glitch.global/c84f6cdb-9f70-4fe9-b879-68945564ccd9/revolta.png?v=1725500954259"/>
     <link
       rel="stylesheet"
       href="https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css"
     />
-    <title>CONTEXTO</title>
+    <link rel="stylesheet" href="/stylesheets/background.css"/>
+<title>REVOLTA DOS MALÊS - CONTEXTO</title>
   </head>
-  <body>
-    <div class="menu"></div>
+  <body class=background> 
+    <div class="menu"><br> 
+      <a class="ligacoes" href="/" >INÍCIO</a>
+      <a class="ligacoes" href="/contexto">CONTEXTO</a>
+      <a class="ligacoes" href="/religiao">RELIGIÃO</a>
+      <a class="ligacoes" href="/diferenca">DIFERENÇAS</a> 
+      <a class="ligacoes" href="/resultado">RESULTADO</a>
+      <a class="ligacoes" href="/hipoteses">SE DESSE CERTO</a>   
+    </div>
 
     <div class="margin">
       <h1 class="titulo">CONTEXTO HISTÓRICO</h1>
@@ -19,53 +27,60 @@
       <div class="texto-imagem">
         <div class="texto">
           <p>
-            Em meados do século XIX, durante o Período Regencial, muitas
-            revoltas ocorreram no país. Após a independência em 1822, muitos
-            conflitos e divergências surgem. A insatisfação dos escravizados se
-            espalhou pela Bahia, por dois motivos:
+            No início do século XIX, durante o Período Regencial, o Brasil foi
+            marcado por inúmeras revoltas e conflitos em diversas regiões do país.
+            Após a independência em 1822, as tensões e divergências se intensificaram.
+            Na Bahia, a insatisfação entre a população escravizada cresceu por dois
+            motivos principais:
           </p>
-
-          <li>
-            O sistema político e econômico (baseada na mão de obra escravizada)
-            que reinava no país;
-          </li>
-
-          <li>
-            A luta pela liberdade religiosa, posto que eram obrigados a
-            participarem dos cultos católicos.
-          </li>
-
+          
+          <div class="topicos">
+            <li>O sistema político e econômico (baseada na mão de obra escravizada)que reinava no país;</li>
+            <li> A luta pela liberdade religiosa, posto que eram obrigados aparticiparem dos cultos católicos.</li>
+            <li>Trabalho forçado;</li>
+            <li>Humilhações, torturas e violências físicas e psicológicas;</li>
+            <li>Péssimas condições de vida, dos abusos sexuais;</li>
+            <li>E, consequentemente, almejavam o fim da escravidão no país.</li> 
+          </div>
+          
           <p>
-            Diferentemente das outras revoltas estudadas onde os motivos eram:
+            As outras revoltas estudadas tinhas seus motivos como:
           </p>
 
-          <li>Do trabalho forçado</li>
-          <li>
-            Das humilhações, torturas e violências físicas e psicológicas;
-          </li>
-          <li>Das péssimas condições de vida, dos abusos sexuais</li>
-          <li>E, consequentemente, almejavam o fim da escravidão no país.</li>
+           <h3>
+              Diferença das outros eventos da época:
+              
+            </h3>
+            <div class="topicos"> 
+            <li>Disputas de poder entre as elites;</li>
+            <li>Instisfação com o governo central;</li>
+            
+          </div> 
+         
         </div>
+       
 
         <img class="imagem" src="/images/1.jpg" alt="AAAA" />
       </div>
+       <p class="texto">No século XIX a Bahia era um dos estados que mais recebia africanos escravizados, e a insatisfação dos escravos se espalhou devido às péssimas condições de vida, humilhações e a imposição religiosa.</p>
+      
+        <p class="texto">Esses escravizados, conhecidos como malês, eram em grande parte muçulmanos e tinham uma cultura rica, com práticas religiosas e um nível de alfabetização em árabe superior ao da maioria dos brasileiros livres da época e lideradsos por Pacífico Licutan, Manuel Calafate e Luís Sanim começaram a planejar uma revolta.</p>
 
-      <div>
-        <p>
-          A Revolta dos Malês, foi a
-          <b>maior revolta de escravos da história brasileira</b>, ocorreu em
-          Salvador, província da Bahia, na noite de 24 de janeiro de 1835,
-          liderada por Pacífico Licutan, Manuel Calafate e Luís Sanim.
-        </p>
-        <p>
-          Ela foi uma rápida rebelião organizada pelos escravos de origem
-          islâmica (sobretudo das etnias hauçá e nagô). Eles buscavam
-          principalmente a liberdade religiosa e o fim dos castigos físicos. 600
-          escravos africanos, os quais lutavam pela libertação dos negros de
-          origem islâmica.
-        </p>
-      </div>
+
+          
     </div>
-    <script type="text/javascript" src="/javascripts/scripts.js"></script>
+    
+    
+    <script>
+      let proximo = () => {
+        window.location = "/religiao"
+      }
+      document.documentElement.addEventListener("keydown", (e) => {
+        if(e.key == "ArrowRight")
+          {
+            proximo()
+          }
+    })
+        </script>
   </body>
 </html>
