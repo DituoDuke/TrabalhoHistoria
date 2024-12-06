@@ -3,15 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
-
+    <link rel="icon" href="https://cdn.glitch.global/c84f6cdb-9f70-4fe9-b879-68945564ccd9/revolta.png?v=1725500954259"/>
     <link
       rel="stylesheet"
       href="https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css"
     />
-    <title>RELIGIÃO</title>
+    <link rel="stylesheet" href="/stylesheets/background.css"/>
+    <title>REVOLTA DOS MALÊS - RELIGIÃO</title>
   </head>
   <body>
-    <div class="menu"></div>
+     <div class="menu"><br> 
+      <a class="ligacoes" href="/" >INÍCIO</a>
+      <a class="ligacoes" href="/contexto">CONTEXTO</a>
+      <a class="ligacoes" href="/religiao">RELIGIÃO</a>
+      <a class="ligacoes" href="/diferenca">DIFERENÇAS</a> 
+      <a class="ligacoes" href="/resultado">RESULTADO</a>
+      <a class="ligacoes" href="/hipoteses">SE DESSE CERTO</a>   
+    </div>
 
     <div class="margin">
       <h1 class="titulo">A RELIGIÃO NO MOVIMENTO</h1>
@@ -29,17 +37,54 @@
             A data de 24 para 25 de janeiro foi decidida pelo líderes, já quer
             era o mês do Ramadã, que é um período sagrado para os mulçumanos.
           </p>
-
-          <p>
-            Objetivos eram: <br />
-            Defender e manter as crenças, cultos e costumes;<br />
-            A busca pela liberdade religiosa e fim dos castigos físicos;<br />
-            Estabelecer uma república islâmica na Bahia.
-          </p>
-        </div>
-      </div>
+          
+           <div>
+            <p>
+              A Revolta dos Malês, foi a
+              <b>maior revolta de escravos da história brasileira</b>, ocorreu em
+              Salvador, província da Bahia, na noite de 24 de janeiro de 1835,
+              liderada por Pacífico Licutan, Manuel Calafate e Luís Sanim.
+            </p>
+            <p>
+              Ela foi uma rápida rebelião organizada pelos escravos de origem
+              islâmica (sobretudo das etnias hauçá e nagô). Eles buscavam
+              principalmente a liberdade religiosa e o fim dos castigos físicos. 600
+              escravos africanos, os quais lutavam pela libertação dos negros de
+              origem islâmica.
+            </p>
+          </div>
+      </div>  
     </div>
+                 
+          <h3>
+             Objetivos:             
+          </h3>
 
-    <script type="text/javascript" src="/javascripts/scripts.js"></script>
+          <ul>
+            <li> Libertar os escravos de origem islâmica;</li>
+            <li> Destruir o sistema escravocrata, implantar uma república islâmica;</li>
+            <li> Defender e manter as crenças, cultos e costumes islâmicos;</li>
+            <li>Fim dos castigos físicos.</li>
+          </ul>
+           
+      <script>
+        let proximo = () => {
+        window.location = "/diferenca"
+      }
+        let anterior = () => {
+          window.location = "contexto"
+        }
+      document.documentElement.addEventListener("keydown", (e) => {
+        if(e.key == "ArrowRight")
+          {
+            proximo()
+          }
+        else if(e.key == "ArrowLeft")
+          {
+            anterior()
+          }
+      })
+        
+      </script>
   </body>
 </html>
